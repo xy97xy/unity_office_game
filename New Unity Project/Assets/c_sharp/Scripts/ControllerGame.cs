@@ -12,12 +12,14 @@ public class ControllerGame : MonoBehaviour
   {
     Player = GameObject.FindWithTag("Player");
     Camera = GameObject.FindWithTag("MainCamera");
-    m_userInterface = GameObject.FindWithTag("HUD");
+
+    // TODO
+    // m_userInterface = GameObject.FindWithTag("HUD");
   }
 
   // Update is called once per frame
   void Update()
   {
-      
+    
   }
 }
